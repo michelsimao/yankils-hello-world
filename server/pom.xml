@@ -22,7 +22,7 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit-dep</artifactId>
+      <artifactId>junit</artifactId> <!-- Corrigido de junit-dep para junit -->
       <scope>test</scope>
     </dependency>
 
@@ -32,7 +32,7 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency> 
+    <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-library</artifactId>
       <scope>test</scope>
